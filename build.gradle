@@ -62,7 +62,7 @@ dependencies {
     //compile('org.codehaus.groovy:groovy:2.4.9')
     testCompile('org.springframework.boot:spring-boot-starter-test')
     compile("org.grails:gorm-hibernate5-spring-boot:6.0.9.RELEASE")
-    runtime('mysql:mysql-connector-java:6.0.5')
+    runtime('mysql:mysql-connector-java:8.0.12')
 
     testCompile 'org.spockframework:spock-spring:1.0-groovy-2.4'
     // optional dependencies for using Spock
